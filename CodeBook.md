@@ -75,10 +75,11 @@ col_id	column_name
 38	"gyroscope - time domain -  body acceleration magnitude - standard deviation"
 39	"gyroscope - time domain -  body jerk magnitude - mean"
 40	"gyroscope - time domain -  body jerk magnitude - standard deviation"
-´´´
+```
 
 Frequency domain columns
 ------------------------
+```
 col_id	column_name
 41	"accelerometer - frequency domain - body acceleration - X axis mean"
 42	"accelerometer - frequency domain - body acceleration - Y axis mean"
@@ -119,9 +120,12 @@ col_id	column_name
 77	"gyroscope - frequency domain -  body jerk magnitude - mean"
 78	"gyroscope - frequency domain -  body jerk magnitude - standard deviation"
 79	"gyroscope - frequency domain -  body jerk magnitude - mean frequency"
+```
 
 Subset columns
 --------------
+```
 col_id	column_name
 80	"subject_id"
 81	"activity"
+```
