@@ -39,8 +39,6 @@ How to run it
 
 	```source("run_analysis.R")```
 
- - drink a coffee... and let the script do the rest
-
 
 Output
 ------
