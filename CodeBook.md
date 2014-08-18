@@ -1,7 +1,7 @@
 CodeBook
 ========
 
-## Transformation steps
+## 1. Transformation steps
 
 The following steps were applied in the original dataset
  - merged the training and test sets to create just one data set.
@@ -10,9 +10,9 @@ The following steps were applied in the original dataset
  - changed the extracted column names to something more readable
  - created a result dataset with the average of each measurement, for each subject/activity pair.
 
-## Measurements
+## 2. Measurements
 
-### Measurement domain
+### 2.1 Measurement domain
 * time domain
 * frequency domain
 
@@ -28,7 +28,9 @@ The following steps were applied in the original dataset
 * gravity magnitude (mean and standard deviation)
 * body jerk magnitude (mean and standard deviation)
 
-#### Time domain columns
+## 3. Data columns
+
+### 3.1 Time domain columns
 ```
 col_id	type	range	measurement
 1		numeric	[-1,1]	"accelerometer - time domain - body acceleration - X axis mean"
@@ -73,7 +75,7 @@ col_id	type	range	measurement
 40		numeric	[-1,1]	"gyroscope - time domain -  body jerk magnitude - standard deviation"
 ```
 
-#### Frequency domain columns
+### 3.2 Frequency domain columns
 ```
 col_id	type	range	measurement
 41		numeric	[-1,1]	"accelerometer - frequency domain - body acceleration - X axis mean"
@@ -117,7 +119,7 @@ col_id	type	range	measurement
 79		numeric	[-1,1]	"gyroscope - frequency domain -  body jerk magnitude - mean frequency"
 ```
 
-#### Subset columns
+### 3.3 Subset columns
 ```
 col_id	type		range																	name
 80		numeric 	[1,30]																	"subject_id"
