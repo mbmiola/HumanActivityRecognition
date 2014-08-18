@@ -31,9 +31,7 @@ How to run it
 
  - start R tools
 
- - set your working directory as the cloned repo, for example:
-
- 	```setwd("/home/myuser/HumanActivityRecognition")```
+ - set your working directory as the cloned repo, for example ```setwd("/home/myuser/HumanActivityRecognition")```
 
  - load the run_analysis.R script to start
 
