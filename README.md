@@ -46,8 +46,6 @@ Output
 ------
  - by default, this R script saves the output into your working directory with the filename ```second_tidy.txt```
 
- - if you prefer you can view the output inside R tools using the following command
-
- 	```View(second_tidy)```
+ - if you prefer you can view the output inside R tools using the command ```View(second_tidy)```
 
 - more information about this dataset can be found [here](https://github.com/mbmiola/HumanActivityRecognition/blob/master/CodeBook.md)
