@@ -33,9 +33,7 @@ How to run it
 
  - set your working directory as the cloned repo, for example ```setwd("/home/myuser/HumanActivityRecognition")```
 
- - load the run_analysis.R script to start
-
-	```source("run_analysis.R")```
+ - load the run_analysis.R script to start ```source("run_analysis.R")```
 
 
 Output
