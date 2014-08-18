@@ -9,6 +9,10 @@ library(data.table)
 ################################
 # Reading input files
 ################################
+# download original dataset
+url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(url,"UCI HAR Dataset.zip",mode="wb")
+unzip("UCI HAR Dataset.zip")
 
 # read features from file
 features <- fread("UCI HAR Dataset/features.txt")$V2
