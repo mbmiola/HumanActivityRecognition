@@ -1,12 +1,12 @@
 CodeBook
 ========
 
-The following steps were applied in the original dataset:
-	* merged training and test sets to create just one data set.
-	* extracted only the columns that represented the mean or the standard deviation for each measurement.
-	* mapped the activity ids to the proper activity names
-	* changed the extracted column names to something more readable
-	* created a result dataset with the average of each measurement, for each subject/activity pair.
+The following steps were applied in the original dataset
+ - merged training and test sets to create just one data set.
+ - extracted only the columns that represented the mean or the standard deviation for each measurement.
+ - mapped the activity ids to the proper activity names
+ - changed the extracted column names to something more readable
+ - created a result dataset with the average of each measurement, for each subject/activity pair.
 
 Domains
 -------
